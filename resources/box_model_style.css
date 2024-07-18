@@ -1,0 +1,53 @@
+/*
+  white: #FFFFFF
+  dark blue: #2A3E52
+  brown: #523E2A
+*/
+
+body {
+    padding: 0 50px 100px 50px;
+    font-size: 1.5em;
+}
+
+h1, h2, h3 {
+    color: #2A3E52;
+}
+
+h1 {
+    text-align: center;
+}
+
+th, td {
+    border: dotted #523E2A 2px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a{
+    color: #2A3E52;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #523E2A;
+}
+
+p.content {
+    background-color: #2A3E52;
+    color: #FFFFFF;
+    width: 7in;
+    border: groove 4px #523E2A;
+    padding: 5px;
+    margin: 50px 20px 100px 20px;
+}
+
+div {
+   background-color: #2A3E52;
+    width: 646px;
+    padding: 50px;
+    border: inset 8px #523E2A;
+}
