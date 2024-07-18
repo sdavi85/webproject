@@ -1,0 +1,44 @@
+/*
+Should look like old typed recipe card
+#FFE1A9 backgorund
+#555451 text
+#815402 table and borders
+#FDF5E6 title bg
+*/
+
+body {
+    padding: 0 50px 100px 50px;
+    font-size: 1.5em;
+    background-color: #FFE1A9;
+    font-family: 'Courier New', monospace;
+}
+
+h1 {
+    text-align: center;
+    color: #555451;
+    background-color: #FDF5E6
+    
+}
+
+h3 {
+    color: #555451;
+    background-color: #FDF5E6;
+    padding: 25px
+    
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    border: dotted 4px #815402;
+    padding: 5px;
+    background-color: #FDF5E6
+}
+
+div {
+   
+    width: 646px;
+    padding: 50px;
+    border: groove 8px #815402;
+}
+
